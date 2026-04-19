@@ -1,0 +1,48 @@
+.mobileAccessNumbers .plus {
+float:left;
+}
+
+#coolMenu {
+clear:right;
+}
+
+.sidebar_popular ul li {font-size:14px;}
+.sidebar_popular ul li {
+width:150px;
+}
+.popular_destinations ul li span, .sidebar_popular ul li span {
+font-size:20px;
+}
+/* Facebook Like */
+.fb-like {
+display:block;
+width:200px;
+height:20px;
+}
+.fb-like span, .fb-like iframe {
+width:200px !important;
+}
+.phone_info_container p.header {
+background: url(/images/bg_country_heading.png) repeat-x top left;
+line-height: 41px;
+height:41px;
+vertical-align:middle;
+}
+.unlimited_steps {
+float:left;
+width:27%;
+padding:2%;
+background: #F9F9F9;
+min-height: 145px;
+margin-right: 2px;
+margin-top:-11px;
+border-bottom: dashed 1px #0A4876;
+border-top: dashed 1px #0A4876;
+}
+input#s {
+padding-top:5px;
+}
+#s:focus {
+outline:none;
+background-color:#FFF;
+}
