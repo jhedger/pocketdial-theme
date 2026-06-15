@@ -101,7 +101,7 @@ $countryData = [
         'dialNote'=>'Dial 0091 + area code + local number for landlines. For mobiles dial 0091 + the full 10-digit number (starting 6, 7, 8 or 9). Drop any leading zero.',
         'networks'=>'Jio, Airtel, Vi (Vodafone Idea)',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['Pakistan','Bangladesh','Sri Lanka','Nepal','UAE','Nigeria','USA'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call India from the UK?','a'=>'If both ends have reliable internet, WhatsApp and FaceTime Audio are free. For UK mobile callers, Rebtel offers rates from around 1–2p/min with no app needed at the India end. For UK landline callers, PocketDial access numbers provide competitive per-minute rates with no account needed.'],
@@ -117,7 +117,7 @@ $countryData = [
         'dialNote'=>'Dial 0092 + area code + local number for landlines. For mobiles dial 0092 + the 10-digit number. Remove any leading zero. Example: Lahore landline 0092 42 + 7-digit number; mobile 0092 300 + 7-digit number.',
         'networks'=>'Jazz, Telenor PK, Zong, Ufone',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['India','Bangladesh','UAE','Saudi Arabia','Afghanistan'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call Pakistan from the UK?','a'=>'WhatsApp is free if both ends have internet. For calling people without smartphones or reliable data — which is common in rural Pakistan — Rebtel or PocketDial access numbers work well and arrive as a normal call at the Pakistan end.'],
@@ -133,7 +133,7 @@ $countryData = [
         'dialNote'=>'Dial 00880 + area code + local number for landlines, dropping the leading zero. For mobiles dial 00880 + the 10-digit number (starting 01).',
         'networks'=>'Grameenphone, Robi, Banglalink, Teletalk',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['India','Pakistan','UAE','Saudi Arabia'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call Bangladesh from the UK?','a'=>'WhatsApp is free where internet is available on both ends. For calling rural areas or landlines, Rebtel and PocketDial access numbers both offer good per-minute rates. The UK–Bangladesh corridor has slightly higher fees than India or Pakistan, so comparing is worthwhile.'],
@@ -151,7 +151,7 @@ $countryData = [
         'dialNote'=>'Dial 00234 + area code + local number for landlines, dropping the leading zero. For mobiles dial 00234 + the 10-digit number (starting 07, 08 or 09 — drop the leading 0).',
         'networks'=>'MTN Nigeria, Airtel Nigeria, Glo, 9mobile',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['Ghana','Kenya','Zimbabwe','USA','India'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call Nigeria from the UK?','a'=>'WhatsApp is widely used in Nigeria and free where both ends have internet. For calling to landlines or areas with unreliable internet, Rebtel and PocketDial access numbers both provide competitive rates. Nigeria is one of the top three UK remittance destinations, so coverage is excellent.'],
@@ -167,7 +167,7 @@ $countryData = [
         'dialNote'=>'Dial 00263 + area code + local number for landlines, dropping any leading zero. For mobiles starting with 07: dial 00263 7 + remaining digits.',
         'networks'=>'NetOne, Econet, Telecel',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['Nigeria','South Africa','Kenya','UAE'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call Zimbabwe from the UK?','a'=>'WhatsApp is widely used in Zimbabwe and free over internet. For landlines or areas with poor connectivity, PocketDial access numbers and Rebtel both offer good rates. The UK–Zimbabwe corridor is smaller than India or Pakistan, so access number availability may vary.'],
@@ -184,7 +184,7 @@ $countryData = [
         'dialNote'=>'Dial 00971 + emirate code + local number for landlines, dropping the leading zero. Dubai: 00971 4 + 7-digit number. Abu Dhabi: 00971 2 + 7-digit number. Mobiles: 00971 5x + 7-digit number.',
         'networks'=>'Etisalat (e&), du',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['India','Pakistan','Saudi Arabia','Egypt','Bangladesh'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call UAE from the UK?','a'=>'WhatsApp is extremely widely used in the UAE and free over WiFi. For business calls to UAE landlines, Rebtel offers competitive rates. Note that calling costs from UK to UAE are generally higher than South Asian destinations.'],
@@ -199,7 +199,7 @@ $countryData = [
         'dialNote'=>'Dial 0098 + area code + local number for landlines, dropping the leading zero. Tehran: 0098 21 + 8-digit number. Mobiles start with 09 — dial 0098 9 + remaining digits.',
         'networks'=>'MCI (Hamrahe Aval), Irancell (MCI Rightel)',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['UAE','Turkey','Afghanistan'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call Iran from the UK?','a'=>'WhatsApp works in Iran though speeds can be unreliable due to network restrictions. For reliable connections to Iranian landlines and mobiles, Rebtel and PocketDial access numbers both offer per-minute rates significantly cheaper than calling direct.'],
@@ -215,7 +215,7 @@ $countryData = [
         'dialNote'=>'Spain has no area codes. Dial 0034 + the 9-digit number directly. Landlines start with 9; mobiles start with 6 or 7.',
         'networks'=>'Movistar, Orange, Vodafone ES, MásMóvil',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['France','Poland','Germany','Portugal'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call Spain from the UK?','a'=>'WhatsApp is very widely used in Spain. For calling Spanish landlines or mobiles from a UK landline, PocketDial access numbers and Rebtel both offer good rates — far cheaper than dialling direct on a UK mobile.'],
@@ -230,7 +230,7 @@ $countryData = [
         'dialNote'=>'Dial 0033 + the 9-digit number without the leading zero. French numbers are 10 digits starting with 0 — remove the 0 and dial the remaining 9. Paris: 0033 1 + 8-digit number.',
         'networks'=>'Orange, SFR, Bouygues Telecom, Free Mobile',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['Spain','Germany','Belgium','Switzerland'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call France from the UK?','a'=>'For calls to French mobiles or landlines from a UK landline, PocketDial access numbers and Rebtel offer good rates. WhatsApp is widely used in France for free calls where both ends have internet.'],
@@ -244,7 +244,7 @@ $countryData = [
         'dialNote'=>'Dial 0048 + the 9-digit number without any leading zero. Polish mobile numbers start with 5, 6, 7 or 8. Landlines include the regional code within the 9-digit number.',
         'networks'=>'Orange PL, Plus, Play, T-Mobile PL',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['Germany','Czech Republic','Slovakia','France'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call Poland from the UK?','a'=>'With a large Polish diaspora in the UK, calls to Poland are very common. WhatsApp is widely used. For UK landline callers, PocketDial access numbers are a cost-effective option. Rebtel is popular for UK mobile callers wanting low per-minute rates.'],
@@ -259,7 +259,7 @@ $countryData = [
         'dialNote'=>'Dial 0030 + the 10-digit Greek number. Greek numbers are 10 digits with no separate area code to remove. Mobiles start with 69; Athens landlines start with 21.',
         'networks'=>'Cosmote, Vodafone GR, WIND Hellas',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['Cyprus','Turkey','Italy','Spain'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call Greece from the UK?','a'=>'WhatsApp is very widely used in Greece. For UK landline callers, PocketDial access numbers offer competitive rates to Greek landlines and mobiles. Rebtel is a good option for UK mobile callers.'],
@@ -274,7 +274,7 @@ $countryData = [
         'dialNote'=>'Dial 0090 + area code + local number for landlines, dropping the leading zero. Istanbul: 0090 212 or 0090 216 + 7-digit number. Mobiles start with 05xx — dial 0090 5 + remaining digits.',
         'networks'=>'Turkcell, Vodafone TR, Türk Telekom',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['Greece','Cyprus','Iran','UAE','Germany'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call Turkey from the UK?','a'=>'WhatsApp is very widely used in Turkey. For UK landline callers, PocketDial access numbers and Rebtel are both cost-effective. Turkey is currently one of PocketDial\'s pages with the highest growth potential — ranking near page 1 for several key queries.'],
@@ -290,7 +290,7 @@ $countryData = [
         'dialNote'=>'Dial 00357 + the 8-digit Cypriot number. There are no area codes — dial 00357 then the full 8-digit number directly.',
         'networks'=>'CYTA, MTN Cyprus, Epic',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['Greece','Turkey','UAE','Israel'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call Cyprus from the UK?','a'=>'WhatsApp is widely used in Cyprus. For UK landline callers, PocketDial access numbers are a cost-effective option. Cyprus is one of PocketDial\'s near-page-1 pages — a good CTR target.'],
@@ -304,7 +304,7 @@ $countryData = [
         'dialNote'=>'Dial 00972 + area code + local number, removing the leading zero. Jerusalem/Tel Aviv landlines: 00972 2 or 3 + 7-digit number. Mobiles: 00972 5x + 8-digit number.',
         'networks'=>'Partner, Cellcom, Hot Mobile, Bezeq',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['Cyprus','Turkey','UAE','Egypt'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call Israel from the UK?','a'=>'WhatsApp is very widely used in Israel. For calling Israeli landlines and mobiles from a UK landline or mobile, Rebtel and PocketDial access numbers both offer competitive per-minute rates.'],
@@ -318,7 +318,7 @@ $countryData = [
         'dialNote'=>'Dial 00355 + area code + local number, removing the leading zero. Tirana: 00355 4 + 7-digit number. Mobiles start with 06 — dial 00355 6 + remaining digits.',
         'networks'=>'Vodafone AL, ONE Telecommunications, Albtelecom',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['Greece','Italy','Kosovo','Turkey'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call Albania from the UK?','a'=>'WhatsApp is widely used. For UK landline and mobile callers, PocketDial access numbers and Rebtel offer competitive per-minute rates. Albania is one of PocketDial\'s near-page-1 pages for SEO — currently ranking at position 11.'],
@@ -332,7 +332,7 @@ $countryData = [
         'dialNote'=>'Dial 00358 + area code + local number, removing the leading zero. Helsinki: 00358 9 + 7 or 8-digit number. Mobiles: 00358 4x or 5x + number.',
         'networks'=>'Elisa, Telia Finland, DNA',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['Sweden','Norway','Germany','Estonia'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call Finland from the UK?','a'=>'WhatsApp and other VoIP apps are widely used in Finland. For UK landline callers, PocketDial access numbers and Rebtel both offer good rates. Finland is one of PocketDial\'s closest-to-page-1 pages — currently at position 9.'],
@@ -348,7 +348,7 @@ $countryData = [
         'dialNote'=>'Dial 0061 + area code + local number for landlines, removing the leading zero. Sydney/NSW: 0061 2 + 8-digit number. Melbourne/VIC: 0061 3 + 8-digit number. Mobiles: 0061 4xx + 8-digit number.',
         'networks'=>'Telstra, Optus, Vodafone AU',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['New Zealand','UK','South Africa','USA','Canada'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call Australia from the UK?','a'=>'WhatsApp is widely used in Australia and free over WiFi. For UK landline callers, PocketDial access numbers offer competitive rates. For UK mobile callers, Rebtel routes calls cheaply without the person in Australia needing any app.'],
@@ -364,7 +364,7 @@ $countryData = [
         'dialNote'=>'Dial 0086 + area code + local number for landlines, dropping the leading zero. Beijing: 0086 10 + 8-digit number. Shanghai: 0086 21 + 8-digit number. Mobiles: 0086 + the full 11-digit number.',
         'networks'=>'China Mobile, China Unicom, China Telecom',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['Japan','South Korea','Taiwan','Hong Kong','Australia'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call China from the UK?','a'=>'Many calling apps including WhatsApp are restricted in mainland China. WeChat is widely used there and is free for WeChat-to-WeChat calls. For calling Chinese landlines and mobiles from the UK, Rebtel and PocketDial access numbers are reliable as they do not depend on the person having internet access.'],
@@ -380,7 +380,7 @@ $countryData = [
         'dialNote'=>'Dial 0066 + area code + local number for landlines, removing the leading zero. Bangkok: 0066 2 + 7 or 8-digit number. Mobiles: 0066 + the 9-digit number (starting 06, 08 or 09 — remove the leading 0).',
         'networks'=>'AIS, DTAC (True Move H), NT',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['Malaysia','Philippines','Vietnam','Singapore','Australia'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call Thailand from the UK?','a'=>'WhatsApp is widely used in Thailand and free over internet. LINE is also popular. For calling Thai landlines or mobiles from a UK landline, PocketDial access numbers are cost-effective. Note: PocketDial\'s Thailand page had 1,241 impressions with zero clicks in recent GSC data — check the page is loading correctly.'],
@@ -397,7 +397,7 @@ $countryData = [
         'dialNote'=>'Dial 001 + area code + 7-digit local number. US numbers are always 10 digits after the country code (3-digit area code + 7-digit number). Mobile numbers follow the same format as landlines.',
         'networks'=>'Verizon, AT&T, T-Mobile US',
         'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-        'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+        'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
         'related'=>['Canada','Australia','Mexico','Jamaica'],
         'faq'=>[
             ['q'=>'What is the cheapest way to call USA from the UK?','a'=>'WhatsApp and FaceTime are both widely used in the US and free over internet. For UK landline callers needing to reach US landlines or mobiles without internet, PocketDial access numbers and Rebtel offer competitive per-minute rates.'],
@@ -413,7 +413,7 @@ $cd = isset($countryData[$countryName]) ? $countryData[$countryName] : [
     'timezoneNote'=>'','dialNote'=>'Dial 00 + the country code + the full local number (omitting any leading zero).',
     'networks'=>'',
     'wiseLink'=>'https://wise.com','remitlyLink'=>'https://remitly.com',
-    'airaloLink'=>'https://airalo.com','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
+    'airaloLink'=>'https://airalo.pxf.io/9VLnW5','holaLink'=>'https://holafly.com','rebtelLink'=>'https://rebtel.com',
     'related'=>[],
     'faq'=>[
         ['q'=>'What is the cheapest way to call '.$countryName.' from the UK?','a'=>'If both ends have reliable internet, WhatsApp and similar apps are free. For UK landline callers, PocketDial access numbers offer competitive per-minute rates with no account needed. For mobile callers, Rebtel is a strong option.'],
