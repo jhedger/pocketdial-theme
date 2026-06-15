@@ -1,0 +1,23 @@
+name: Deploy to pocketdial.com
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy via rsync
+        uses: burnett01/rsync-deployments@7.0.1
+        with:
+          switches: -avz --delete --exclude='.git*' --exclude='error_log' --exclude='*.txt'
+          path: ./
+          remote_path: /home/vv1k3pyf2qjc/public_html/wp-content/themes/PocketDial/
+          remote_host: ${{ secrets.DEPLOY_HOST }}
+          remote_port: 22
+          remote_user: ${{ secrets.DEPLOY_USER }}
+          remote_key: ${{ secrets.DEPLOY_KEY }}
