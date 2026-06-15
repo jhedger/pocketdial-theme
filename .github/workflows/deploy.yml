@@ -12,13 +12,28 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Set up SSH key
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/deploy_key
+          echo "$DEPLOY_KEY" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan -H ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
+          echo "Key fingerprint:"
+          ssh-keygen -lf ~/.ssh/deploy_key
+
+      - name: Test SSH connection
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+        run: |
+          ssh-keyscan -p 22 -T 10 "$DEPLOY_HOST" >> ~/.ssh/known_hosts 2>&1
+          ssh -v -i ~/.ssh/deploy_key -p 22 -o ConnectTimeout=10 \
+            "$DEPLOY_USER@$DEPLOY_HOST" "echo 'SSH OK'" 2>&1
 
       - name: Deploy via rsync
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
         run: |
           rsync -avz --delete \
             --exclude='.git*' \
@@ -26,4 +41,4 @@ jobs:
             --exclude='*.txt' \
             -e "ssh -i ~/.ssh/deploy_key -p 22" \
             ./ \
-            ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/home/vv1k3pyf2qjc/public_html/wp-content/themes/PocketDial/
+            "$DEPLOY_USER@$DEPLOY_HOST:/home/vv1k3pyf2qjc/public_html/wp-content/themes/PocketDial/"
