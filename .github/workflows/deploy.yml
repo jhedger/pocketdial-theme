@@ -11,13 +11,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Set up SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
+
       - name: Deploy via rsync
-        uses: burnett01/rsync-deployments@7.0.1
-        with:
-          switches: -avz --delete --exclude='.git*' --exclude='error_log' --exclude='*.txt'
-          path: ./
-          remote_path: /home/vv1k3pyf2qjc/public_html/wp-content/themes/PocketDial/
-          remote_host: ${{ secrets.DEPLOY_HOST }}
-          remote_port: 22
-          remote_user: ${{ secrets.DEPLOY_USER }}
-          remote_key: ${{ secrets.DEPLOY_KEY }}
+        run: |
+          rsync -avz --delete \
+            --exclude='.git*' \
+            --exclude='error_log' \
+            --exclude='*.txt' \
+            -e "ssh -i ~/.ssh/deploy_key -p 22" \
+            ./ \
+            ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/home/vv1k3pyf2qjc/public_html/wp-content/themes/PocketDial/
